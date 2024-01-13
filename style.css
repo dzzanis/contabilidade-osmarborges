@@ -39,7 +39,7 @@ body {
   width: min(50rem, 100%);
   margin-right: auto;
   margin-left: auto;
-  padding-inline: 2.4rem;
+  padding-inline: 1.6rem;
 }
 
 ul {
@@ -420,7 +420,7 @@ body.menu-expanded .button path {
 
   & img {
     object-fit: cover;
-    width: 35rem;
+    width: 34rem;
     height: 45rem;
     border-radius: 30%;
     border: 0.3rem solid var(--primary-color);
@@ -449,6 +449,10 @@ body.menu-expanded .button path {
 #fb_timeline .content p {
   margin-top: 2.4rem;
   margin-bottom: 6rem;
+}
+
+#fb_timeline .col-b {
+  margin-left: -0.6rem;
 }
 
 #fb_timeline .col-b div + div {
