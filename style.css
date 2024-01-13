@@ -167,11 +167,14 @@ nav .close-menu {
   position: fixed;
 }
 
-nav .logo img {
+nav .logo svg {
   height: var(--nav-height);
   display: block;
-  border-radius: 50px;
-  padding: 4px;
+  padding: 5px;
+}
+
+nav .logo-bg-svg {
+  fill: var(--bg-light);
 }
 
 /*============== MENU-EXPANDED ====================================================================*/
@@ -574,7 +577,7 @@ footer .social-links {
     filter: initial;
   }
 
-  nav#navigation .wrapper .logo img {
+  nav#navigation .wrapper .logo svg {
     margin-top: 0.5rem;
     padding: 0.1rem;
   }
