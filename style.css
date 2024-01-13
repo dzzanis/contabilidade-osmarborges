@@ -170,7 +170,7 @@ nav .close-menu {
 nav .logo svg {
   height: var(--nav-height);
   display: block;
-  padding: 5px;
+  padding: 6px;
 }
 
 nav .logo-bg-svg {
